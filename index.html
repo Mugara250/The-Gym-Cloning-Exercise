@@ -1,28 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TheGymClone</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <div class="container1">
-      <div class="logo">
-        <img
-          src="./images/logo_fewo_direkt.webp"
-          alt="logo"
-          width="300"
-        />
-      </div>
-        <nav class="navbar">
-          <li><a href="#">App herunterladen</a></li>
-          <li><a href="#">Reiseplaner</a></li>
-          <li><a href="#">Unterkunft registrieren</a></li>
-          <li><a href="#">Hilfe</a></li>
-          <li><a href="#">Meine Reisen</a></li>
-          <li><a href="#">Anmelden</a></li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeWo-Direkt Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./images/fewo-direkt_logo_1.avif" alt="FeWo-Direkt Logo" width="200">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"><button type="button"><img src="./images/arrow.png" class="download-icon" alt="download icon" width="15">App herunterladen</button></a></li>
+                <li><a href="#">Reiseplaner</a></li>
+                <li><a href="#">Unterkunft registrieren</a></li>
+                <li><a href="#">Hilfe</a></li>
+                <li><a href="#">Meine Reisen</a></li>
+                <li><a href="#">Anmelden</a></li>
+            </ul>
         </nav>
-    </div>
-  </body>
+    </header>
+
+    <section class="hero">
+        <h1>Find Your Next Vacation Spot</h1>
+        <form class="hero-search-form">
+            <input type="text" placeholder="Destination, property, etc.">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section class="featured-destinations">
+        <h2>Featured Destinations</h2>
+        <div class="destination-card">
+            <img src="destination1.jpg" alt="Destination 1">
+            <h3>Destination Name</h3>
+            <p>Short description of the destination.</p>
+        </div>
+        <!-- Repeat for more destinations -->
+    </section>
+
+    <footer>
+        <p>© 2024 FeWo-Direkt. All rights reserved.</p>
+    </footer>
+</body>
 </html>
