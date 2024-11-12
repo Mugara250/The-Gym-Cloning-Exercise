@@ -4,3 +4,26 @@
     box-sizing: border-box;
 }  
 
+.container1 {
+    border: 1px solid green;
+    display: flex;
+}
+
+.logo {
+    border: 1px solid red;
+    margin: 0 100px 0 200px;
+    flex-basis: 100px;
+}
+
+.navbar {
+    border: 1px solid blue;
+    /* display: flex;
+    flex-direction: row; */
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 100px 0 250px;
+}
+
