@@ -11,9 +11,10 @@
 
 .logo {
     border: 1px solid red;
-    margin: 0 100px 0 200px;
-    flex-basis: 100px;
+    margin: 0 200px 0 350px;
+    height: 50%;
 }
+
 
 .navbar {
     border: 1px solid blue;
@@ -22,8 +23,9 @@
 }
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 0 100px 0 250px;
+    margin: 0 100px 0 500px;
+    list-style: none;
 }
 
